@@ -3,43 +3,55 @@ p{
 }
 .margin{
     padding: 22.6% 0%;
-    border: 5px solid white;
 }
-
+.margin-1{
+    padding: 0% 0%;
+  
+}
 .gallary{
    
     padding:33.6% 0%;
     border: 10px solid white;
+    border-top:0px ;
     
   
 }
-
+.title-buy{
+    
+    border-right: 10px solid white;
+    
+}
 .title{
-    border: 10px solid white;
-    padding: 5% 0px;
+    
+    padding: 5%;
+    border-bottom: 10px solid white;
     
 }
 .buy-box{
-    border: 10px solid white;
-    padding:23.3% 0px;
+
+    padding: 24.9% 0px;
     
 }
 
 .description{
     
      border: 10px solid white;
-     padding: 3% 0px;
+     border-top: 0px;
+     padding: 3.4% 0px;
    
 }
 .related{
     border: 10px solid white;
+    border-top: 0px;
+    border-bottom: 0px;
    padding: 3% 0px;
 }
-@media(max-width:1068px){
+@media(max-width:1000px){
        .title-buy{
            border-left: 10px solid white ;
        }
        .buy-box{
+           border-bottom: 10px solid white;
        }
        .margin{
            border: 10px solid white;
