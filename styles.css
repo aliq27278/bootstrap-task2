@@ -46,7 +46,7 @@ p{
     border-bottom: 0px;
    padding: 3% 0px;
 }
-@media(max-width:1000px){
+@media(max-width:1200px){
        .title-buy{
            border-left: 10px solid white ;
        }
