@@ -1,0 +1,64 @@
+p{
+    text-align: center;
+}
+.margin{
+    padding: 22.6% 0%;
+    border: 5px solid white;
+}
+
+.gallary{
+   
+    padding:33.6% 0%;
+    border: 10px solid white;
+    
+  
+}
+
+.title{
+    border: 10px solid white;
+    padding: 5% 0px;
+    
+}
+.buy-box{
+    border: 10px solid white;
+    padding:23.3% 0px;
+    
+}
+
+.description{
+    
+     border: 10px solid white;
+     padding: 3% 0px;
+   
+}
+.related{
+    border: 10px solid white;
+   padding: 3% 0px;
+}
+@media(max-width:1068px){
+       .title-buy{
+           border-left: 10px solid white ;
+       }
+       .buy-box{
+       }
+       .margin{
+           border: 10px solid white;
+          /* border-top:0px;
+          padding-top:50%  ;*/
+       }
+       .bottom{
+           border-top: 0px;
+       }
+      
+       
+}
+    
+   
+
+@media(max-width:600px){
+    .margin{
+        border: 10px solid white;
+        /* border-top:0px; */
+       padding-top:25%  ;
+    }
+}
